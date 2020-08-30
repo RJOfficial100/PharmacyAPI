@@ -1,0 +1,12 @@
+>>>>>>>For SQL<<<<<<<
+
+-sql Database file==> PharmacyAPI SQL.dtsx present with project.
+-import in Sql Server Management Studio.
+-if required then change connectionstring in appsetting.json file.
+
+>>>>>>>Procedure to use<<<<<<<<
+
+-Open this PharmacyAPI application in Visual studio
+-right click on PharmacyAPI in solution and click to view and open in chrome.
+-go to visual studio and click to execute button side arrow and select clientApp and execute.
+
