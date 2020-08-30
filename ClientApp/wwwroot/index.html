@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Client App</title>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="CSS/Custom.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-capitalize text-center">XYZ PHARMA</h1>
+    </div>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-10">
+                <input id="myInput" type="text" placeholder="Search.." class="SearchField p-2 btn-block">
+
+            </div>
+
+            <div class="col-sm-2">
+                <button class=" btn-block p-2 btn-primary" onclick="window.location.href='/AddMedRecord.html';">Add Medicine</button>
+            </div>
+        </div>
+        <br /><br />
+              <div id="btnContainer">
+                  <button class="btn m-2" onclick="listView()">List</button>
+                  <button class="btn active" onclick="gridView()">Grid</button>
+              </div>
+                <table id="DynamicTable" class="w-100">
+
+                    <div class="no-results text-center" style="display:none">NO DATA FOUND</div>
+                </table>
+        
+        
+    </div>
+    <script src="JS/Customjs.js"></script>
+</body>
+
+</html>

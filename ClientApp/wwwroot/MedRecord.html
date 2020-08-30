@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Client App</title>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-capitalize text-center">XYZ PHARMA</h1>
+        
+    </div>
+    
+        
+    <div class="container">
+        <form id="MedForm">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" class="form-control" id="Name">
+                <span class="error" id="spanName"></span>
+            </div>
+            <div class="form-group">
+                <label for="Brand">Brand:</label>
+                <input type="text" class="form-control" id="Brand">
+            </div>
+            <div class="form-group">
+                <label for="Price">Price:</label>
+                <input type="number" class="form-control" id="Price" step="0.01" min="0">
+                <span class="error" id="spanPrice"></span>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="Quantity">
+                <span class="error" id="spanQuantity"></span>
+            </div>
+            <div class="form-group">
+                <label for="Date">Expire date:</label>
+                <input type="date" class="form-control" id="Date">
+                <span class="error" id="spanDate"></span>
+            </div>
+            <div class="form-group">
+                <label for="Notes">Notes:</label>
+                <input type="text" class="form-control" id="Notes">
+            </div>
+        </form>
+    </div>
+    <br />
+    <br />
+    <div class="container btnContainer">
+        <button id="EditButton" class="form-control w-50 float-left btn-primary">
+            Edit
+        </button>
+        <button id="DeleteButton" class="form-control w-50 btn-danger">
+            Delete
+        </button>
+        <br />
+       <button class="btn btn-block btn-dark" onclick="window.location.href='/index.html';">Back To Home</button>
+    </div>
+    
+    <script src="JS/MedRecord.js"></script>
+</body>
+</html>

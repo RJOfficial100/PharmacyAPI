@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmacyAPI", "PharmacyAPI\PharmacyAPI.csproj", "{C8731B3C-04DA-469B-9C58-E9AE325CE35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{D3015C6D-0D94-48BB-A1C5-E5B0E21A78F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8731B3C-04DA-469B-9C58-E9AE325CE35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8731B3C-04DA-469B-9C58-E9AE325CE35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8731B3C-04DA-469B-9C58-E9AE325CE35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8731B3C-04DA-469B-9C58-E9AE325CE35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3015C6D-0D94-48BB-A1C5-E5B0E21A78F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3015C6D-0D94-48BB-A1C5-E5B0E21A78F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3015C6D-0D94-48BB-A1C5-E5B0E21A78F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3015C6D-0D94-48BB-A1C5-E5B0E21A78F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BE9AD07-44BE-41CD-B4CB-B2DE282F4B0E}
+	EndGlobalSection
+EndGlobal
